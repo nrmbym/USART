@@ -40,9 +40,10 @@
 				printf("请输入数据，以回车键结束\n");
 			if(times%30==0) 
 			{
-				led0=~led0;
+				led1=~led1;
 			}
 			delay_ms(10);
+			delay_ms(200);
 			
 		}
 	 }
