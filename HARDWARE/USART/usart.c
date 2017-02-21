@@ -88,7 +88,7 @@ void usart_Init(u32 bound)
 
 	USART_ITConfig(USART1,USART_IT_RXNE,ENABLE);//接受缓冲器非空  使能
 	
-
+delay_ms(500);
 
 
 
