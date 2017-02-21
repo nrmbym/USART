@@ -20,5 +20,6 @@ void LED_Init(void)
 	GPIO_Init(GPIOE,&GPIO_InitStructure);
 	
 	GPIO_SetBits(GPIOE,GPIO_Pin_6);
+delay_ms(1000);
 	
 }
